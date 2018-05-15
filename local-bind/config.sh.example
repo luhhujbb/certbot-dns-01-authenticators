@@ -6,9 +6,9 @@ ZONEFILE_DIR=/etc/bind/zones
 # Zone file filename format
 # Use %s as domain name
 
-ZONEFILE_FILENAME_FORMAT="db.%s"
+ZONEFILE_FILENAME_FORMAT="{{ bind_zonefile_format }}"
 
 # Serial line comment in zone file.
 # It will be used to search serial line in the zone file
 
-SERIAL_COMMENT_STRING="serial number of this zone file"
+SERIAL_COMMENT_STRING="{{ bind_zonefile_serial_comment }}"

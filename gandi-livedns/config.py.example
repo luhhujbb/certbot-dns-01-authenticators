@@ -7,7 +7,7 @@ livedns_api = "https://dns.api.gandi.net/api/v5/"
 # clicking on your name (top right), then "parameters",
 # then "Change password and manage access restrictions"
 
-livedns_apikey = "YOUR-KEY-HERE"
+livedns_apikey = "{{ gandi_livedns_apikey }}"
 
 
 # Your LiveDNS api sharing_id if you use an organization
@@ -21,4 +21,4 @@ livedns_apikey = "YOUR-KEY-HERE"
 # and you don't use an organization
 
 #livedns_sharing_id="e2f9927a-ebc9-44d4-bd00-af51f8327ec2"
-livedns_sharing_id = None
+livedns_sharing_id = {{ gandi_livedns_sharing_id | default('None')}}
