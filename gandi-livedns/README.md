@@ -14,7 +14,7 @@ Copy `config.py.example` to `config.py` and adjust it to suit your needs
 $ certbot certonly \
   -- manual \
   --manual-auth-hook /opt/le-scripts/gandi-livedns/auth.py \
-  --manual-cleanup-hook /opt/le-scripts/gandi-livedns/cleanup.sh \
+  --manual-cleanup-hook /opt/le-scripts/gandi-livedns/cleanup.py \
   -d '*.domain.tld'
 ```
 
