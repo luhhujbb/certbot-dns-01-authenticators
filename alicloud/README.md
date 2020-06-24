@@ -6,7 +6,7 @@ DNS-01 validation when your DNS zone is hosted by Alicloud service (Chinese majo
 
 ## Configuration
 
-Your aliyun cli must be present and configured (either with ram credentials or ecs instance ram role)
+Your aliyun cli must be present and configured (either with ram credentials or ecs instance ram role), jq must be installed
 
 ## Usage
 
